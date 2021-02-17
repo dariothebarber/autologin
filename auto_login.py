@@ -5,7 +5,7 @@ from getpass import getpass
 username = 'username'
 password = 'pw'
 
-driver = webdriver.Chrome('C:\\Users\\dario\\Documents\\Projects\\chromedriver.exe')    # web driver path
+driver = webdriver.Chrome('C:\\Users\\path_to_web_driver')    # web driver path
 driver.get('https://thetagang.com/login')   # site login page
 
 username_textbox = driver.find_element_by_id('Username')
